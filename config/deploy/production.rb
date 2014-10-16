@@ -20,7 +20,7 @@ set :user, 'revisit'
 server '178.62.52.105', user: fetch(:user), roles: %w{web app}
 
 # PATHS
-set :deploy_to, "/var/www/site"
+set :deploy_to, "/var/www/site/current/public"
 
 # We can use environment vars to specify a revision or branch to deploy to staging.
 # Defaults to 'master' branch.
